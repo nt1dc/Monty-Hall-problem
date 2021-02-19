@@ -1,6 +1,8 @@
 import random
-n=1000000
-door_value=3
+print("Введите количество дверей")
+door_value=int(input())
+print("Введите количество опытов")
+n=int(input())
 win=0
 for i in range(n):
     priz_door = random.randint(0,door_value - 1)
